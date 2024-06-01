@@ -199,7 +199,7 @@ export default function Home() {
         {!isValid ? (
           <form
             onSubmit={handleSubmit}
-            className="mt-[43vh] flex h-[57vh] w-full flex-col p-8 md:ml-[55vw] md:mt-0 md:w-[45vw] lg:items-center"
+            className="mt-[50vh] flex h-[57vh] w-full flex-col p-8 md:ml-[55vw] md:mt-0 md:w-[45vw] lg:items-center"
           >
             <label htmlFor="cardHolder" className={`${labelStyle}`}>
               Cardholder Name
